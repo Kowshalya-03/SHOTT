@@ -1,0 +1,2 @@
+# SHOTT
+Camera Rental Website
