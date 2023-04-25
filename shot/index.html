@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> SHOT </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="style.css">
+        <link rel="stylesheet"  href="popupstyle.css">
+        <link rel="stylesheet"  href="gstyle.css">
+      
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+
+
+
+
+        <link rel="icon" href="shotlogo.png" type="image/png">
+    </head>
+
+    <body>
+      
+       <section class="Popup">
+       
+       
+        <div class="popup" id="popup">
+          <div class="popup-inner">
+            <div class="popupphoto">
+              <img src="offer.png" alt="">
+            </div>
+            <div class="popuptext">
+              <h1>Get an Exclusive Offer </h1>
+              <p> SHOT cherishes cameras similarly as you do. We adore sharing shooting undertakings and fascinating photograph stories with the world and same as you, everybody in SHOT is photograph energetic.<a href="#cameras">Visit SHOT</a></p>
+            </div>
+            <a class="closepopup" href="#">X</a>
+          </div>
+          </div>
+        
+      </div>
+    </section>
+
+
+  
+
+
+       <section class="head">
+        <div class="container flex1">
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            
+
+            <div class="box">
+              <a class="button" href="#popup">Click Here For Exclusive Offers For Today</a>
+            </div>
+
+
+
+            <div class="address">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>205, Fida Waliton, Tongo Street Front, USA</span>
+            </div>
+        </div>
+       </section>
+
+       <header class="head">
+        <div class="container">
+            <nav class="navbar flex1">
+                <div class="sticky_logo logo ">
+                    <img src="shotlogo.png" alt="">
+                </div>
+
+                <u1 class="nav-menu">
+                 
+                    <li> <a href="#home"> Home</a></li>
+                    <li> <a href="#about"> About  </a></li>
+                    <li> <a href="#cameras"> Cameras</a></li>
+                    <li> <a href="#lenses"> Lenses </a></li>
+                 
+                    <li> <a href="#reviews & ratings">Reviews & Ratings </a></li>
+                    <li> <a href="#gallery"> Gallery</a></li> 
+                    <li> <a href="#blog"> Support  </a></li>
+                    <li> <a href="#contact"> Contact  </a></li>
+                    <li>  <a href="login.html">Login</a></li>
+                   <li>  <a href="/shot/shoppingcart/index.php"> Book</a></li>
+                    <li> <a href="payment.html"> Payment</a></li>
+                   
+                </u1>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <div class="head_contact">
+                    <i class="fas fa-phone-volume"></i>
+                </div>
+            </nav>
+        </div>
+       </header>
+
+<script>
+
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobilemenu);
+
+    function mobilemenu(){
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+
+
+    window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle ("sticky", window.scrollY > 0)
+    })
+</script>
+ 
+<section class="home" id="home">
+    <div class="container">
+        <h1> SHOT </h1>
+        <p style="font-size: 30pt;"> Capture your Memories</p>
+
+        <div class="content grid">
+          <div class="box">
+            <span> Cameras </span> <br>
+            <input type="int" placeholder="01">
+        </div>
+
+        <div class="box">
+            <span> Lenses</span> <br>
+            <input type="int" placeholder="01">
+        </div>
+            <div class="box">
+                <span> Check-In </span> <br>
+
+                <input type="date" placeholder="26/01/2023">
+            </div>
+            <div class="box">
+                <span> Check-Out</span> <br>
+                <input type="date" placeholder="31/01/2023">
+            </div>
+            
+            <div class="box">
+               <button class="flex">
+                <span> Check Availability</span>
+                <i class="fas fa-arrow-circle-right"></i>
+               </button>
+            </div>
+        </div>
+    </div>
+
+</section>
+      
+<section class="about" id="about">
+    <div class="container">
+        <div class="heading">
+            <h5> EXPLORE</h5>
+            <h2> We are cool to give you pleasure </h2>
+        </div>
+
+        <div class=" content flex top">
+            <div class="left">
+                <h3> As much as comfort want to get from us everything</h3>
+                <p> SHOT cherishes cameras similarly as you do. We adore sharing shooting undertakings and fascinating photograph stories with the world and same as you, everybody in SHOT is photograph energetic. </p>
+                  <p>We want to catch each one of a kind and valuable minute occurring in our regular day to day existence. We are dedicated to offering you the most-fit camera getting it done cost to such an extent that your energy in photography can be satisfied without limits. </p>
+                <button class="flex">
+                    <span> Check Availability</span>
+                    <i class="fas fa-arrow-circle-right"></i>
+                   </button>
+            </div>
+            <div class="right">
+                <img src="e.jpg" >
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="wrapper">
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+
+                <div class="headings">
+                    <h5> the city view</h5>
+                    <h3> A Charming view of the city</h3>
+                </div>
+               <img src="x.jpg" height="10%">
+          </div>    
+          <div class="item">
+                
+            <div class="headings">
+                <h5> the city view</h5>
+                <h3> A Charming view of the city</h3>
+            </div>
+           <img src="abc.jpg">
+      </div>    
+      <div class="item">
+                
+        <div class="headings">
+            <h5> the city view</h5>
+            <h3> A Charming view of the city</h3>
+        </div>
+       <img src="e.jpg">
+  </div>    
+        </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    navText:["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>" ],
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+</script>
+
+<br>
+<br>
+<br> 
+<br> 
+<br></br></br></br>
+<section class="wrapper2">
+    <div class="container">
+        <div class="heading mtop">
+            <h5> facilities</h5>
+            <h2> Giving entirely awesome</h2>
+
+        </div>
+
+        <div class="content grid mtop" id="cameras">
+            <div class="box">
+                <i class="fas fa-camera-retro"></i>
+                <h3> Canon</h3>
+                <img src="b.jpg" height="50%" width="50%">
+                <p> Explore the wild with a camera that packs sensational speed and image quality in a portable for the future.</p> 
+                <h5> Rent $50/day</h5>
+            </div>
+            <div class="box">
+                <i class="fas fa-camera"></i>
+                <h3> Nikon</h3>
+                <img src="ni.jpg" height="50%" width="50%">
+                <p> See your photos & videos come to life with stunning clarity & rich detail through  Nikon DSLR cameras</p>
+                <h5> Rent $60/day</h5>
+            </div>
+            <div class="box">
+                <i class="fas fa-camera-retro"></i>
+                <h3> Fuzifilm</h3>
+                <img src="d.jpg" height="50%" width="50%">
+                <p> Fujifilm is one of the best regarded camera brands worldwide. With our award-winning range of cameras.</p>
+                <h5> Rent $45/day</h5>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-camera"></i>
+                <h3> Sony</h3>
+                <img src="v.jpg" height="50%" width="50%">
+                <p> On-the-spot streaming and sharing of high-quality content</p>
+                <h5> Rent $40/day</h5>
+                     
+            </div>
+
+            <div class="box">
+              <i class="fas fa-camera-retro"></i>
+              <h3> Parasonic </h3>
+              <img src="pa.jpg" height="50%" width="50%">
+              <p>The Panasonic camera isflagship bridge camera that offers incredible image quality. </p>
+              <h5> Rent $30/day</h5>
+                   
+          </div>
+
+          <div class="box">
+            <i class="fas fa-camera"></i>
+            <h3> Pentax</h3>
+            <img src="pe.jpeg" height="50%" width="50%">
+            <p>A compact digital Pentax camera featuring dustproof, weather-resistant  perfect for outdoor photography </p>
+            <h5> Rent $35/day</h5>
+                 
+        </div>
+
+        <div class="box">
+          <i class="fas fa-camera-retro"></i>
+          <h3> Go Pro</h3>
+          <img src="u.jpg" height="50%" width="50%">
+          <p>GoPro offers HD action cameras with sharp 4K resolution, enabling you to capture crystal-clear footage of your feats.</p>
+          <h5> Rent $55/day</h5>
+               
+      </div>
+
+      <div class="box">
+        <i class="fas fa-camera"></i>
+        <h3> Kodak</h3>
+        <img src="ko.jpg" height="50%" width="50%">
+        <p> Your KODAK Mini Shot 3 Retro allows you to shoot and print high-quality photos anytime and anywhere.</p>
+        <h5> Rent $25/day</h5>
+             
+    </div>
+        </div>
+    </div>
+</section>
+
+<section class="room wrapper2 top" >
+    <div class="container">
+        <div class="heading">
+            <h5> OUR CAMERAS </h5>
+            <h2> fascinating cameras & lenses</h2>
+        </div>
+
+        <div class="content flex mtop">
+            <div class="left grid2">
+                <div class="box">
+                    <i class="fas fa-camera"></i>
+                    <p> Free Cost </p>
+                    <h3> No Booking fee</h3>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-registered"></i>
+                    <p> Free Register </p>
+                    <h3> No Booking fee</h3>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-resolving"></i>
+                    <p> Free Trail</p>
+                    <h3> No Booking fee</h3>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-alarm-clock"></i>
+                    <p> On Time Delivery </p>
+                    <h3>  Booking fee</h3>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-shopping-bag"></i>
+                    <p> Free Colaboration </p>
+                    <h3> No Booking fee</h3>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-receipt"></i>
+                    <p> Free Renting  </p>
+                    <h3> No Booking fee</h3>
+                </div>
+
+
+             
+            </div>
+            <div class="right">
+                <img src="m.jpg">
+                 </div>
+        </div>
+    </div>
+</section>
+ 
+<section class="timer about wrapper">
+    <div class="background"> </div>
+    <div class="container">
+      <div class="heading">
+        <h5>LAST MINUTE!</h5>
+        <h2> <span>Incredible!</span> Are you coming today</h2>
+      </div>
+
+      <div id="time" class="flex1 mtop"> </div>
+    </div>
+  </section>
+  <script src="js/jquery.countdown.js" charset="utf-8"></script>
+  <script src="js/jquery.countdown.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $('#time').countdown('2024/01/01', function(event) {
+      $(this).html(event.strftime(
+        '<div class="clock"><span>%d</span> <p>Days</p></div> ' +
+        '<div class="clock"><span>%H</span> <p>Hours</p></div> ' +
+        '<div class="clock"><span>%M</span> <p>Minutes</p></div> ' +
+        '<div class="clock"><span>%S</span> <p>Seconds</p></div> '
+      ));
+    });
+  </script>
+
+<section class="offer mtop" id="lenses">
+    <div class="container">
+        <div class="heading">
+            <h5>Lenses</h5>
+            <h3>You can get an exclusive offer</h3>
+        </div>
+
+        <div class="content grid2 mtop">
+            <div class="box flex">
+                <div class="left">
+                    <img src="h.jpg" alt="">
+                </div>
+
+                <div class="right">
+                    <h4> Sony 70-200 G Master F-2.8 Lens is available for rent. </h4>
+                    <div class="rate flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5>Technical Specifications-</h5>
+                    <p>&#x2023 E-Mount Lens/Full-Frame Format.
+                      <br>
+                      &#x2023 Aperture Range: f/2.8 to f/22.
+                      <br>
+                      &#x2023 One XA Element.
+                      <br>
+                      &#x2023 Two Aspherical Elements Four ED Elements.
+                      <br>
+                      &#x2023 Two Super ED Elements.
+                      <br>
+                      &#x2023 Nano AR Coating and Fluorine Coating. </p>
+               <h5> From $50.6/night</h5>
+               <button class="flex"> 
+                <span>Check Availability</span>
+                <i class="fas fa-arrow-circle-right"></i>
+               </button>
+                    </div>
+            </div>
+            <div class="box flex">
+                <div class="left">
+                    <img src="i.jpg" alt="">
+                </div>
+
+                <div class="right">
+                    <h4> Carl Zeiss Batis 85mm (f-1.8) E-Mount Lens is available for rent.</h4>
+                    <div class="rate flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5>Technical Specifications-</h5>
+                    <p>&#x2023 Sonnar Optical Design.
+                      <br>
+                      &#x2023  Floating Elements System Zeiss.
+                      <br>
+                      &#x2023  T* Anti-Reflective Coating.
+                      <br>
+                      &#x2023 Optical Image Stabilization.
+                      <br>
+                      &#x2023  OLED Display for Focus Distance and DoF.
+                      <br>
+                      &#x2023  Linear Autofocus Motor Dust- and Weather-Sealed Construction.</p>
+               <h5> From $60.6/night</h5>
+               <button class="flex"> 
+                <span>Check Availability</span>
+                <i class="fas fa-arrow-circle-right"></i>
+               </button>
+                    </div>
+            </div>
+            <div class="box flex">
+                <div class="left">
+                    <img src="o.jpg" alt="">
+                </div>
+
+                <div class="right">
+                    <h4> Canon EF 24-105mm f/4L IS USM Lens is available for rent. </h4>
+                    <div class="rate flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5>Technical Specifications-</h5>
+                    <p>&#x2023 Three Aspherical Elements.
+                      <br>
+                      &#x2023   Super Spectra Coating.
+                      <br>
+                      &#x2023    Ring-Type Ultrasonic Motor AF System.
+                      <br>
+                      &#x2023 Optical Image Stabilization.
+                      <br>
+                      &#x2023                        Weather-Sealed Construction.
+                      <br>
+                      &#x2023 Rounded 8-Blade Diaphragm.</p>
+               <h5> From $50.6/night</h5>
+               <button class="flex"> 
+                <span>Check Availability</span>
+                <i class="fas fa-arrow-circle-right"></i>
+               </button>
+                    </div>
+            </div>
+            <div class="box flex">
+                <div class="left">
+                    <img src="w.jpg" alt="">
+                </div>
+
+                <div class="right">
+                    <h4>Samyang 35mm f/1.4 AS UMC Canon Mount Lens is available for rent. </h4>
+                    <div class="rate flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5>Technical Specifications-</h5>
+                    <p>&#x2023 Compatible with Full-Frame and APS-C.
+                      <br>
+                      &#x2023     Hybrid Aspherical Lenses -- Sharp Images.
+                      <br>
+                      &#x2023    56mm (35mm Equivalent on APS-C).
+                      <br>
+                      &#x2023  One Aspherical and Two HR Elements.
+                      <br>
+                      &#x2023    UMC Coating.
+                      <br>
+                      &#x2023   Manual Focus Design</p>
+             
+               <h5> From $50.6/night</h5>
+               <button class="flex"> 
+                <span>Check Availability</span>
+                <i class="fas fa-arrow-circle-right"></i>
+               </button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="area top">
+ <div class="container">
+    <div class="heading">
+        <h2> SHOT</h2>
+        <h3> Capture Your Memories</h3>
+    </div>
+
+    <div class="content flex mtop">
+        <div class="left">
+            <img src="q.jpg" alt="" height="80%" width="80%">
+
+        </div>
+        <div class="right">
+            <ul>
+                <li> Cameras</li>
+                <li>SLenses</li>
+                <li>Accessories</li>
+            </ul>
+
+            <p>SHOT cherishes cameras similarly as you do. We adore sharing shooting undertakings and fascinating photograph stories with the world and same as you, everybody in SHOT is photograph energetic. </p>
+             <p>&#x2023 Look through our wide range of rental list. Call Us. Call us to book the list of camera, lens, lights, accessories you would like to hire.</p>
+             <p>&#x2023  Shot offers unrivaled Premium Excellent Condition high-quality camera lenses rental in Bangalore at affordable prices.</p>
+             <p>&#x2023 Shot offers unrivaled Premium Excellent Condition high-quality camera rental and camera lens rental in Bangalore at affordable prices.</p>
+             <br>
+             <br>
+                <button class="flex1"> 
+
+                    <span>Check Availability</span>
+                    <i class="fas fa-arrow-circle-right"></i>
+                   </button>   
+        </div>
+    </div>
+ </div>
+</section>
+
+
+<section class="offer2 about wrapper timer top" >
+    <div class="container">
+      <div class="heading">
+        <h3>EXCLUSIVE OFFERS </h3>
+        <h3>You can get an exclusive offer </h3>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <h5>UP TO 30% OFF</h5>
+          <h3>Cameras</h3>
+          <span>4.5 <label>(432 Reviews)</label> </span>
+          <p>Cameras are On-the-spot streaming and sharing of high-quality content </p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="box">
+          <h5>UP TO 15% OFF</h5>
+          <h3>Lenses</h3>
+          <span>4.9 <label>(432 Reviews)</label> </span>
+          <p>Lenses are OLED Display for Focus Distance and DoF</p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+        <div class="box">
+          <h5>UP TO 10% OFF</h5>
+          <h3>Accesories</h3>
+          <span>4.8 <label>(432 Reviews)</label> </span>
+          <p>Accesories are important for photoshoots</p>
+          <div class="flex">
+            <i class="fal fa-alarm-clock"> Duration: 2Hours</i>
+            <i class="far fa-dot-circle"> 18+ years</i>
+          </div>
+          <button class="flex1">
+            <span>Check Availability</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <section class="customer top" id="reviews & ratings">
+    <div class="container">
+      <div class="heading">
+        <h5>Reviews & Ratings </h5>
+        <h3>What customers say </h3>
+      </div>
+
+      <div class="owl-carousel owl-theme mtop">
+        <div class="item">
+          <div class="rate">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Excellent Cameras</h3>
+          <p>"More than satisfied! I have tried many other apps but I can assure every user that these guys do it with passion and care. It is so easy to take anything on rent and they deliver it at your doorstep. The amount they charge is minimum compared to any other rental service"</p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="x.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Vijay</h3>
+              <span>Bangalore</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rate">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Excellent Lenses</h3>
+          <p>"Pretty cool concept I'm so glad I don't need to run around for anything! More than happy to bump into the peeps who helped me at a crucial time with the bestest product and service. Will definitely use this app more!"</p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="y.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Tanya</h3>
+              <span>Mandya</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rate">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Excellent Accesories</h3>
+          <p>"Super helpful site with awesome service. I would recommend this to all who need to rent for few days. All the best and keep up the good work Wlend!"</p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="z.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Swetha</h3>
+              <span>Mangalore</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: false,
+      navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+<section class="gallary" id="gallery">
+  <div class="gallery-image">
+    <div class="img-box">
+      <img src="t.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Library</p>
+          <p class="opacity-low">Architect Design</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="q.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Night Sky</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="r.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Tea Talk</p>
+          <p class="opacity-low">Composite</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="ni.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Road</p>
+          <p class="opacity-low">Landscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="a.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Sea</p>
+          <p class="opacity-low">Cityscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="z.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="img-box">
+      <img src="m.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="img-box">
+      <img src="s.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="img-box">
+      <img src="k.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="img-box">
+      <img src="ko.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="img-box">
+      <img src="pa.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+
+    <div class="img-box">
+      <img src="x.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+
+
+</section>
+
+ 
+
+
+
+<section class="blog top" id="blog">
+  <div class="container">
+    <div class="heading">
+      <h5>SUPPORT & BLOG</h5>
+      <h3>Policies & Support</h3>
+  <p style="font-size: 20pt; "> Rental Terms</p>
+    <p style="text-align: left;">
+   1. The item shall be rented out only after a background check of the customer has been performed, and we are satisfied with the results. <br>
+    
+   2. The borrower is fully responsible for the item from the time it is rented out until it has been returned.<br>
+    
+   3. In case of loss of item (product or accessory), the borrower will have to pay the respective replacement value. (This is the actual cost to replace the item in its pre-loss condition.) Or, the borrower must find another item that has similar features, and is in a similar working condition to the lost item.<br>
+    
+    4. The cash payment or the item replacement must happen before the lapse of the rental period. Failing this, the borrower will be charged regular rental prices for the duration involved.<br>
+    
+   5.  In case of item damage, the borrower will be charged a fee not exceeding the replacement value of the item. This fee shall be determined by us, taking into account the extent of damage to the item.<br>
+    
+   6. If items aren’t returned by the agreed-upon date, and an extension hasn’t been granted, a rental fee of up to twice the regular fee may be charged by us for the extra duration.<br>
+    
+   7.  Standard delivery and pickup fees apply only for orders that have the same pickup and delivery dates. In the event that some items in an order have different delivery/pickup times from the rest, the logistics charge will be determined on a case-by-case basis.<br>
+    
+   8.  The delivery of an item isn't guaranteed if the item is booked less than 24 hours from the desired delivery time. In that case, please get in touch with us on our phone number to check if the delivery is indeed possible.<br><br><br></p>
+    
+   <p style="font-size: 20pt;" >Cancellations and Modifications</p>
+   <p style="text-align: left;">
+   1.  In case of a price conflict due to staggered pricing, unless otherwise mentioned or implied, the higher of the prices will apply.<br>
+    
+   2.  The time durations are to be calculated as the duration between when the items were to be delivered and the time when the call was made to modify the order. If the call isn't answered, an email detailing the modification may be sent. The phone/email request shall be considered only during normal business hours of 9 AM to 8 PM on all days. If the call/email happens outside of these hours, they shall come into consideration during the next business hour period.<br>
+    
+    3. No refunds would be possible once the rental period has started as the product will be reserved exclusively for the user for the selected duration.<br></p>
+    <div class="container">
+      <div class="heading">
+        <h5>OUR BLOG</h5>
+        <h3>SHOT</h3>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <div class="img">
+            <img src="p.jpg" alt="">
+            <span>SHOT</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>SHOT</h3>
+            <p> Photography is one of the most desired skills today. The Michigan State University has developed a fantastic online course called "Photography Basics and Beyond: From Smartphone to DSLR" that is available on Coursera. There is a lot of material available online but this is a very structured approach to learning photography and ideal for getting started. This comprehensive course covers a huge array of topics include camera, exposure, post production and a lot more.   Is this free? Yes and No. You can actually view the video lectures and learn for free by choosing to audit. You can choose...</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="q.jpg" alt="">
+            <span>SHOT</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>SHOT</h3>
+            <p>Quick show of hands in your mind: who has ever purchased airline tickets from an actual counter in the airport? Not many of you, I presume. Finding deals on the internet is easy and fun. It started with individual businesses promoting themselves trying to grab as much market as possible. Then came the marketplaces which aggregated individual businesses in the same industry making prices more transparent and comparable.  Now, there are tons of web and mobile applications that specialize in travel, and social media is making easier than ever for travelers to plan, book and share details about their travel... </p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="t.jpg" alt="">
+            <span>SHOT</span>
+          </div>
+          <div class="text">
+            <div class="flex">
+              <i class="far fa-user"> <label>Admin</label> </i>
+              <i class="far fa-comments"> <label>Comment</label> </i>
+            </div>
+            <h3>SHOT</h3>
+            <p> Do you visit many webpages before booking a trip? Do you search for cheap flights and hotels on incognito mode? Do you read about destination and what is worth to see there? Now you wonder why trip planning and review websites have tons of users? Planning a vacation can be an exciting ordeal. It involves choosing a destination, a place to stay and what do once you get there. But, for many travellers, trip-planning is considered a giant pain in the butt.  Expedia conducted a study which found that travellers who visited a tourism portal like Incredible India 45 days prior...</p>
+            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="faq top" id="faq">
+    <div class="faq-header">Frequently Asked Questions</div>
+
+    <div class="faq-content">
+      <div class="faq-question">
+        <input id="q1" type="checkbox" class="panel">
+        <div class="plus">+</div>
+        <label for="q1" class="panel-title">What exactly does shot do??</label>
+        <div class="panel-content">wlend is an online rental platform. Just like you can buy items on Amazon or Flipkart, you can rent items from wlend. You choose the items you want, the dates you want them for and checkout the products. We deliver and pickup the items from you.</div>
+      </div>
+      
+      <div class="faq-question">
+        <input id="q2" type="checkbox" class="panel">
+        <div class="plus">+</div>
+        <label for="q2" class="panel-title">Wha items do you have for rent?</label>
+        <div class="panel-content">All the items that we have for rent are listed on the site. Explore the different categories to see what you would like to rent. If an item is not listed on our site, we won't be able to deliver it to you.</div>
+      </div>
+      
+      <div class="faq-question">
+        <input id="q3" type="checkbox" class="panel">
+        <div class="plus">+</div>
+        <label for="q3" class="panel-title">How much does it cost to rent a camera?</label>
+        <div class="panel-content">All our prices are listed online. When you choose a camera and the dates and times, the website automatically calculates the price. The price you see at the time of checkout includes: (i) the rental price; (ii) the refundable security deposit; (iii) delivery fee (if any).</div>
+      </div>
+    </div>
+
+    <div class="faq-question">
+      <input id="q4" type="checkbox" class="panel">
+      <div class="plus">+</div>
+      <label for="q4" class="panel-title">What is the refundable deposit?</label>
+      <div class="panel-content">We charge a refundable security deposit equal to two days' rent. You will pay us this amount at the time of delivery, and we will refund it to you when you return the product to us. The refundable deposit amount is automatically calculated by the website.</div>
+    </div>
+  </div>
+
+  <div class="faq-question">
+    <input id="q5" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q5" class="panel-title">What if i want the delivery on the same day?</label>
+    <div class="panel-content">If you aren't able to select the dates for delivery on the same day, you may contact us to see if we can arrange delivery on the same day. In case we deliver on the same day, we will charge you half day's rent extra.</div>
+  </div>
+</div>
+
+<div class="faq-question">
+  <input id="q6" type="checkbox" class="panel">
+  <div class="plus">+</div>
+  <label for="q6" class="panel-title">How and when does the security deposit get refunded?</label>
+  <div class="panel-content">If you pay by cash, we refund the deposit when we pick up the item from you. If you pay online, we will initiate a refund online within 24 hours of pickup of the item. (The date by which the amount gets credited to your account will depend on your bank/card).</div>
+</div>
+</div>
+
+<div class="faq-question">
+  <input id="q7" type="checkbox" class="panel">
+  <div class="plus">+</div>
+  <label for="q7" class="panel-title">I am not able to select some days on the website,  what do i do?</label>
+  <div class="panel-content">If you are not able to select the 'From' or 'To' date on the website, it means that that particular item has been booked by some other customer for that period. So, please choose a different item. Especially during long weekends, we tend to get fully booked out. Which is why we suggest that you book as early as possible.</div>
+</div>
+</div>
+
+<div class="faq-question">
+  <input id="q8" type="checkbox" class="panel">
+  <div class="plus">+</div>
+  <label for="q8" class="panel-title">Where do you deliver the camera to?</label>
+  <div class="panel-content">We either deliver the camera to your house, or to your office/educational institution. For us to confirm the delivery, you need to have a valid address proof (see below).</div>
+</div>
+</div>
+
+<div class="faq-question">
+  <input id="q9" type="checkbox" class="panel">
+  <div class="plus">+</div>
+  <label for="q9" class="panel-title">What documents do i need for the order?</label>
+  <div class="panel-content">If you are a first-time customer, after you make the booking, you will see a form where you must upload two documents. The first document must be a PAN/Aadhaar card in your name. The second document must be a valid address proof (Rental Agreement, Office ID, Passport, Driving License, etc) in your name. This address must match the Shipping Address that you enter for your order. These two documents must not be the same. Also, your name and the address must be clearly visible in the document. If they are on different sheets, combine all the sheets into a PDF and upload the PDF.</div>
+</div>
+</div>
+
+<div class="faq-question">
+  <input id="q10" type="checkbox" class="panel">
+  <div class="plus">+</div>
+  <label for="q10" class="panel-title">Are you guys only in bangalore?</label>
+  <div class="panel-content">Yes, we are currently only in Bangalore. We hope to change the answer to this question in the very near future, though. So, subscribe to our feeds on our newsletter, Facebook or Twitter to stay informed of when we are coming to your city!</div>
+</div>
+</div>
+
+
+</section>
+
+
+
+
+  <section class="map top">
+    
+    "<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62223.24273909197!2d77.566734!3d12.9107635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15b277a93807%3A0x88518f37b39dabd0!2sChrist%20(Deemed%20to%20be%20University)!5e0!3m2!1sen!2sin!4v1660190558064!5m2!1sen!2sin"
+ width="600" 
+ height="450" 
+ style="border:0;"
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>"
+  </section>
+
+
+  <footer>
+    <div class="container top">
+      <div class="subscribe" id="contact">
+        <h2>Subscribe newsletter</h2>
+        <p>SHOT cherishes cameras similarly as you do. We adore sharing shooting undertakings and fascinating photograph stories with the world and same as you, everybody in SHOT is photograph energetic. </p>
+        <div class="input flex">
+          <input type="email" placeholder="Your Email address">
+          <button class="flex1">
+            <span>Subscribe</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <div class="logo">
+            <img src="shotlogo.png" alt="">
+          </div>
+          <p>SHOT cherishes cameras similarly as you do. We adore sharing shooting undertakings and fascinating photograph stories with the world and same as you, everybody in SHOT is photograph energetic.</p>
+          <div class="social flex">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <h2>Quick Links</h2>
+          <ul>
+           <li><i class="fas fa-angle-double-right"></i><a href="#home">Home</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#about">About</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#gallery">Gallery</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#blog">Support</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#faq">FAQ</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i><a href="#cameras">Cameras</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#lenses">Lenses</a></li>
+            <li><i class="fas fa-angle-double-right"></i>Accesories</li>
+            <li><i class="fas fa-angle-double-right"></i><a href="payment.html">Payment</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="#reviews & ratings">Reviews & Ratings</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Contact-Us</h2>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>205 Fida Walinton, Tongo Street Front The USA</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+123 456 7898</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>hello@ecorik.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    </body>
+</html>
